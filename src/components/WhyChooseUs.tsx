@@ -51,63 +51,63 @@ export default function WhyChooseUs() {
             <div className="grid grid-cols-2 gap-4 relative">
               
               {/* Image 1: Aluminium Fabrication & Curtain Wall */}
-              <div className="relative rounded-2xl overflow-hidden border-2 border-[#d4b145]/40 shadow-xl h-56 sm:h-64 group">
+              <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
                   src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80"
                   alt="Aluminium Curtain Wall Fabrication"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/60 px-2 py-0.5 rounded border border-[#d4b145]/30">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />
+                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/70 backdrop-blur-md px-2.5 py-0.5 rounded-md border border-[#d4b145]/40">
                   Aluminium Glazing
                 </span>
               </div>
 
               {/* Image 2: Steel Welding Sparks */}
-              <div className="relative rounded-2xl overflow-hidden border-2 border-[#d4b145]/40 shadow-xl h-56 sm:h-64 group mt-8">
+              <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group mt-8 bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
                   src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80"
                   alt="Certified Steel Welding Sparks"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/60 px-2 py-0.5 rounded border border-[#d4b145]/30">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />
+                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/70 backdrop-blur-md px-2.5 py-0.5 rounded-md border border-[#d4b145]/40">
                   Certified Welding
                 </span>
               </div>
 
               {/* Image 3: Heavy Civil Construction & Cranes */}
-              <div className="relative rounded-2xl overflow-hidden border-2 border-[#d4b145]/40 shadow-xl h-56 sm:h-64 group -mt-4">
+              <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group -mt-4 bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
                   src="https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=600&q=80"
                   alt="Civil Construction Concrete Works"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/60 px-2 py-0.5 rounded border border-[#d4b145]/30">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />
+                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/70 backdrop-blur-md px-2.5 py-0.5 rounded-md border border-[#d4b145]/40">
                   Civil Engineering
                 </span>
               </div>
 
               {/* Image 4: Mechanical HVAC & Industrial Ducting */}
-              <div className="relative rounded-2xl overflow-hidden border-2 border-[#d4b145]/40 shadow-xl h-56 sm:h-64 group mt-4">
+              <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group mt-4 bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
                   src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80"
                   alt="Industrial HVAC Systems"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/60 px-2 py-0.5 rounded border border-[#d4b145]/30">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />
+                <span className="absolute bottom-3 left-3 text-[11px] font-bold text-white uppercase tracking-wider bg-black/70 backdrop-blur-md px-2.5 py-0.5 rounded-md border border-[#d4b145]/40">
                   Industrial HVAC
                 </span>
               </div>
 
               {/* Center Floating Seal of Excellence */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#141312] border-2 border-[#d4b145] rounded-2xl p-4 text-center shadow-2xl z-20 hidden sm:block">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#141312]/95 backdrop-blur-xl border-2 border-[#d4b145] rounded-2xl p-4 text-center shadow-2xl z-20 hidden sm:block">
                 <span className="text-xl font-extrabold text-[#d4b145] block">100%</span>
                 <span className="text-[10px] font-bold text-white uppercase tracking-wider">
                   Quality Audit Pass

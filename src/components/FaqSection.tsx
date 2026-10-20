@@ -75,7 +75,7 @@ export default function FaqSection() {
             Our estimating department is available for immediate consultations and RFP reviews.
           </p>
           <a
-            href="https://wa.me/966501234567"
+            href="https://wa.me/966570174535"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#d4b145] text-black font-bold text-xs hover:bg-[#edd170] transition-colors"

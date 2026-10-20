@@ -60,12 +60,12 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
             {/* Left Contact Items */}
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 sm:gap-6">
               <a 
-                href="tel:+966138594440" 
+                href="tel:+966570174535" 
                 className="flex items-center gap-1.5 hover:text-[#d4b145] transition-colors"
                 title="Call Hashem Contracting KSA"
               >
                 <Phone className="w-3.5 h-3.5 text-[#d4b145]" />
-                <span className="font-medium">+966 13 859 4440</span>
+                <span className="font-medium">+966 57 017 4535</span>
               </a>
               <a 
                 href="mailto:info@hashemcontracting.com" 
@@ -89,7 +89,7 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
               <div className="h-3 w-[1px] bg-[#332f2c] hidden sm:block"></div>
               <div className="flex items-center gap-3">
                 <a 
-                  href="https://wa.me/966501234567" 
+                  href="https://wa.me/966570174535" 
                   target="_blank" 
                   rel="noreferrer" 
                   className="flex items-center gap-1 text-[#d4b145] hover:text-[#fceda2] transition-colors font-medium"
@@ -406,7 +406,7 @@ export default function Navbar({ onOpenQuoteModal }: NavbarProps) {
                 <ArrowRight className="w-4 h-4" />
               </button>
               <div className="text-center text-xs text-[#8f8a84]">
-                Call: +966 13 859 4440
+                Call: +966 57 017 4535
               </div>
             </div>
           </div>

@@ -656,7 +656,7 @@ export const FAQS = [
   },
   {
     question: "How do I request a formal quotation or tender submission?",
-    answer: "You can submit your project BOQ (Bill of Quantities) and drawings directly through our online 'Request a Quote' form, email us at info@hashemcontracting.com, or call our estimating department at +966 13 859 4440. Our engineering team responds within 24 to 48 hours."
+    answer: "You can submit your project BOQ (Bill of Quantities) and drawings directly through our online 'Request a Quote' form, email us at info@hashemcontracting.com, or call our estimating department at +966 57 017 4535. Our engineering team responds within 24 to 48 hours."
   },
   {
     question: "What warranties and guarantees are provided on aluminium facades and civil projects?",

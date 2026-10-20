@@ -229,10 +229,10 @@ export default function ServiceDetailClient({ service }: ServiceDetailClientProp
                   Our chief division engineer is available to review your IFC drawings.
                 </div>
                 <a
-                  href="tel:+966138594440"
+                  href="tel:+966570174535"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#181615] border border-[#3b3632] hover:border-[#d4b145] text-white text-xs font-semibold transition-colors"
                 >
-                  Direct Call: +966 13 859 4440
+                  Direct Call: +966 57 017 4535
                 </a>
               </div>
             </div>

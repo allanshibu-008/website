@@ -97,10 +97,10 @@ export default function ContactSection() {
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-[#d4b145] shrink-0" />
                   <div>
-                    <a href="tel:+966138594440" className="text-white hover:text-[#d4b145] transition-colors font-medium">
-                      +966 13 859 4440
+                    <a href="tel:+966570174535" className="text-white hover:text-[#d4b145] transition-colors font-medium">
+                      +966 57 017 4535
                     </a>
-                    <span className="text-[#88837c] text-xs ml-2">(Landline)</span>
+                    <span className="text-[#88837c] text-xs ml-2">(Direct Line)</span>
                   </div>
                 </div>
 
@@ -108,12 +108,12 @@ export default function ContactSection() {
                   <MessageSquare className="w-4 h-4 text-[#d4b145] shrink-0" />
                   <div>
                     <a 
-                      href="https://wa.me/966501234567" 
+                      href="https://wa.me/966570174535" 
                       target="_blank" 
                       rel="noreferrer" 
                       className="text-[#d4b145] font-semibold hover:underline"
                     >
-                      +966 50 123 4567 (Direct WhatsApp)
+                      +966 57 017 4535 (Direct WhatsApp)
                     </a>
                   </div>
                 </div>

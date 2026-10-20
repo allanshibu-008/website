@@ -45,11 +45,11 @@ export default function CtaBanner({ onOpenQuoteModal }: CtaBannerProps) {
             </button>
 
             <a
-              href="tel:+966138594440"
+              href="tel:+966570174535"
               className="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#262321] hover:bg-[#322e2a] text-white border border-[#3b3632] hover:border-[#d4b145] font-semibold text-base transition-colors flex items-center justify-center gap-2.5"
             >
               <Phone className="w-4 h-4 text-[#d4b145]" />
-              <span>Call +966 13 859 4440</span>
+              <span>Call +966 57 017 4535</span>
             </a>
           </div>
 

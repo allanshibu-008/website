@@ -59,23 +59,56 @@ export default function AboutPage() {
       {/* Detailed Corporate Heritage */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-6 relative">
-            <div className="relative rounded-2xl overflow-hidden border-2 border-[#d4b145]/40 shadow-2xl h-[460px]">
-              <Image
-                src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80"
-                alt="Hashem Precision Engineering Yard"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#141312] via-transparent to-transparent opacity-80" />
-              <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-[#1b1918]/90 backdrop-blur-md border border-[#d4b145]/40">
-                <span className="text-xs text-[#d4b145] font-bold uppercase tracking-wider block">12,000 m² Facility</span>
-                <span className="text-sm text-white font-medium">Equipped with European 5-Axis CNC &amp; Automated Assembly</span>
+          <div className="lg:col-span-5 relative">
+            <div className="relative mx-auto max-w-lg lg:max-w-none px-4 sm:px-6 lg:px-0 py-6">
+              {/* Custom Architectural Frame Container */}
+              <div className="relative p-2.5 sm:p-3.5 rounded-[30px] bg-gradient-to-b from-[#252220] via-[#1b1918] to-[#141312] border-2 border-[#d4b145] shadow-[0_0_35px_rgba(212,177,69,0.18),inset_0_0_20px_rgba(0,0,0,0.5)]">
+                <div 
+                  className="relative w-full h-[400px] sm:h-[480px] rounded-[22px] overflow-hidden bg-[#141312] shadow-inner"
+                  style={{ isolation: 'isolate' }}
+                >
+                  <Image
+                    src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=85"
+                    alt="Hashem Precision Engineering Yard"
+                    fill
+                    className="object-cover w-full h-full rounded-[inherit] transition-transform duration-700 hover:scale-105"
+                    priority
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#141312]/75 via-transparent to-black/20 pointer-events-none rounded-[inherit]" />
+                  <div className="absolute inset-0 blueprint-grid opacity-15 pointer-events-none rounded-[inherit]" />
+                  
+                  <div className="absolute top-4 left-4 flex items-center gap-2 text-[10px] font-mono text-[#d4b145] tracking-widest bg-black/75 backdrop-blur-md px-3 py-1 rounded-md border border-[#d4b145]/30">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#d4b145] animate-pulse"></span>
+                    <span>HASHEM • PLANT HUB</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Floating Card: 15+ Years */}
+              <div className="absolute -top-3 -right-2 sm:-right-4 z-20 p-3.5 sm:p-4 rounded-2xl bg-[#1c1a18]/95 backdrop-blur-xl border border-[#d4b145]/50 shadow-[0_16px_36px_rgba(0,0,0,0.6)] flex items-center gap-3 card-hover-effect">
+                <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#d4b145] to-[#aa8628] text-black flex items-center justify-center font-extrabold text-lg shadow-md shrink-0">
+                  15+
+                </div>
+                <div>
+                  <div className="text-white font-bold text-xs sm:text-sm tracking-wide">Years of Excellence</div>
+                  <div className="text-[11px] text-[#edd170] font-medium">Headquartered in KSA</div>
+                </div>
+              </div>
+
+              {/* Floating Card: 12,000 m² Facility */}
+              <div className="absolute -bottom-3 -left-2 sm:-left-4 z-20 p-3.5 sm:p-4 rounded-2xl bg-[#1c1a18]/95 backdrop-blur-xl border border-[#d4b145]/50 shadow-[0_16px_36px_rgba(0,0,0,0.6)] flex items-center gap-3 card-hover-effect">
+                <div className="w-11 h-11 rounded-xl bg-[#24211f] border border-[#d4b145]/60 text-[#d4b145] flex items-center justify-center shrink-0 shadow">
+                  <Cpu className="w-5 h-5" />
+                </div>
+                <div>
+                  <div className="text-white font-bold text-xs sm:text-sm tracking-wide">12,000 m² Facility</div>
+                  <div className="text-[11px] text-[#edd170] font-medium">5-Axis European CNC Hub</div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="lg:col-span-6 space-y-6">
+          <div className="lg:col-span-7 space-y-6">
             <span className="text-xs font-bold text-[#d4b145] uppercase tracking-wider block">
               Our Journey
             </span>

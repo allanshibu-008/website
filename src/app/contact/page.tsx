@@ -62,7 +62,7 @@ export default function ContactPage() {
               King Abdulaziz Road, Industrial Zone, Eastern Province, Saudi Arabia
             </p>
             <div className="text-xs text-[#cfcac2] space-y-1.5 border-t border-[#332f2c] pt-3">
-              <div><strong>Phone:</strong> +966 13 859 4440</div>
+              <div><strong>Phone:</strong> +966 57 017 4535</div>
               <div><strong>Email:</strong> info@hashemcontracting.com</div>
               <div><strong>Facility:</strong> 12,000 m² Fabrication Hub</div>
             </div>
@@ -94,7 +94,7 @@ export default function ContactPage() {
               Royal Commission Industrial Zones, Petrochemical Support Centers
             </p>
             <div className="text-xs text-[#cfcac2] space-y-1.5 border-t border-[#332f2c] pt-3">
-              <div><strong>Hotline:</strong> +966 50 123 4567</div>
+              <div><strong>Hotline / WhatsApp:</strong> +966 57 017 4535</div>
               <div><strong>Email:</strong> industrial@hashemcontracting.com</div>
               <div><strong>Focus:</strong> Plant Shutdowns, Piping &amp; Turnarounds</div>
             </div>
