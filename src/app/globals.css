@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+:root {
+  --gold: #d4b145;
+  --gold-light: #edd170;
+  --gold-dark: #b5922f;
+  --matte-black: #1b1918;
+  --matte-black-light: #242221;
+  --secondary-dark: #2b2b2b;
+  --dark-surface: #141312;
+  --light-bg: #f7f7f7;
+  --border-gold: rgba(212, 177, 69, 0.25);
+  --border-dark: rgba(255, 255, 255, 0.08);
+}
+
+@theme {
+  --color-gold: #d4b145;
+  --color-gold-light: #edd170;
+  --color-gold-dark: #b5922f;
+  --color-matte-black: #1b1918;
+  --color-secondary-dark: #2b2b2b;
+  --color-light-bg: #f7f7f7;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+  background-color: #1b1918;
+  color: #f7f7f7;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #1b1918;
+  color: #f7f7f7;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #151413;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b3734;
+  border-radius: 4px;
+  border: 2px solid #151413;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4b145;
+}
+
+/* Engineering Blueprint & Architectural Grid Backgrounds */
+.blueprint-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(212, 177, 69, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 177, 69, 0.05) 1px, transparent 1px);
+}
+
+.blueprint-grid-subtle {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+/* Gold Gradient Accents & Glows */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fceda2 0%, #d4b145 50%, #aa8628 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #d4b145 0%, #f3dc84 50%, #b8932d 100%);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px rgba(212, 177, 69, 0.15);
+}
+
+.card-hover-effect {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover-effect:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 177, 69, 0.2);
+  border-color: rgba(212, 177, 69, 0.55);
+}
+
+/* Glassmorphism Styles */
+.glass-panel-dark {
+  background: rgba(27, 25, 24, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 177, 69, 0.18);
+}
+
+.glass-nav {
+  background: rgba(20, 19, 18, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(212, 177, 69, 0.15);
+}
+
+/* Shimmer animation */
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-gold {
+  background: linear-gradient(90deg, rgba(212,177,69,0.1) 0%, rgba(212,177,69,0.3) 50%, rgba(212,177,69,0.1) 100%);
+  background-size: 200% 100%;
+  animation: goldShimmer 4s infinite linear;
+}
+
+/* Infinite Marquee Animation for Clients & Certifications */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
