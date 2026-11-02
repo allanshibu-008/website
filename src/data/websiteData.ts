@@ -64,11 +64,11 @@ export const CORE_SERVICES: ServiceItem[] = [
     shortDesc: "Saudi Arabia's premier manufacturer of high-performance architectural curtain walls, structural glazing, thermal break doors, windows, and custom ACP cladding.",
     fullDesc: "Hashem General Contracting Est. operates a specialized, high-capacity aluminium and architectural glazing facility equipped with cutting-edge European CNC machining centers. We engineer, fabricate, and install architectural building envelopes compliant with SASO and international ASTM/BS standards for prestigious commercial towers, institutional landmarks, and luxury complexes.",
     iconName: "Layers",
-    featuredImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    featuredImage: "/images/services/aluminium.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80",
+      "/images/why-us/aluminium-glazing.jpg",
+      "/images/projects/proj-1.jpg",
+      "/images/projects/proj-2.jpg",
     ],
     capabilities: [
       "Unitized & Stick Curtain Wall Systems",
@@ -115,11 +115,11 @@ export const CORE_SERVICES: ServiceItem[] = [
     shortDesc: "Comprehensive turnkey civil engineering and building construction for industrial plants, commercial centers, residential complexes, and heavy infrastructure across KSA.",
     fullDesc: "From comprehensive site preparation and deep foundation works to multi-story reinforced concrete structures and premium interior finishing, Hashem General Contracting delivers turnkey civil contracting. We handle complex ground engineering, heavy equipment foundations, and architectural finishes with uncompromising safety and precision.",
     iconName: "Building2",
-    featuredImage: "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1200&q=80",
+    featuredImage: "/images/services/civil.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80"
+      "/images/why-us/civil-works.jpg",
+      "/images/projects/proj-3.jpg",
+      "/images/about/site-engineering.jpg"
     ],
     capabilities: [
       "Commercial & Industrial Building Construction",
@@ -161,11 +161,11 @@ export const CORE_SERVICES: ServiceItem[] = [
     shortDesc: "Design, CNC cutting, automated fabrication, shot blasting, and on-site erection of heavy industrial steel buildings, warehouse frames, pipe racks, and platforms.",
     fullDesc: "Hashem's dedicated steel division fabricates high-capacity structural steel for industrial plants, warehouses, hangars, and petrochemical facilities. With ASME and AWS certified master welders, CNC plasma cutting tables, and overhead crane bays, we produce structures engineered to withstand extreme environmental loads.",
     iconName: "Hammer",
-    featuredImage: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80",
+    featuredImage: "/images/services/steel.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1000&q=80"
+      "/images/why-us/steel-welding.jpg",
+      "/images/projects/proj-2.jpg",
+      "/images/about/fabrication-plant.jpg"
     ],
     capabilities: [
       "Pre-Engineered Buildings (PEB) & Heavy Hot-Rolled Structures",
@@ -207,11 +207,11 @@ export const CORE_SERVICES: ServiceItem[] = [
     shortDesc: "Complete industrial HVAC, chilled water plants, AHU networks, cleanroom ventilation, boilers, heat exchangers, and firefighting installations.",
     fullDesc: "We provide end-to-end mechanical contracting for industrial facilities, commercial complexes, and data centers. Our certified mechanical engineers handle load calculations (HAP), chiller plant optimization, ductwork manufacturing, equipment erection, and rigorous Testing, Adjusting, and Balancing (TAB).",
     iconName: "Wind",
-    featuredImage: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80",
+    featuredImage: "/images/services/mechanical.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80"
+      "/images/why-us/hvac-systems.jpg",
+      "/images/projects/proj-4.jpg",
+      "/images/services/mechanical.jpg"
     ],
     capabilities: [
       "Central Chilled Water Systems & Water/Air-Cooled Chillers",
@@ -253,10 +253,10 @@ export const CORE_SERVICES: ServiceItem[] = [
     shortDesc: "Fabrication, welding, hydrotesting, and commissioning of stainless steel, carbon steel, duplex, and thermoplastic piping for industrial plants, RO facilities, and chilled water networks.",
     fullDesc: "Hashem delivers specialized process and utility piping solutions for industrial manufacturing plants, food & beverage facilities, pharmaceutical facilities, RO desalination units, and chilled water distribution. We utilize orbital TIG welding and rigorous hydrostatic testing to guarantee zero leaks.",
     iconName: "Cpu",
-    featuredImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80",
+    featuredImage: "/images/services/piping.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80"
+      "/images/services/piping.jpg",
+      "/images/projects/proj-5.jpg"
     ],
     capabilities: [
       "Stainless Steel 304 / 316L Process Lines & Sanitary Piping",
@@ -298,9 +298,9 @@ export const CORE_SERVICES: ServiceItem[] = [
     shortDesc: "Comprehensive plant turnaround services, structural retrofitting, equipment overhaul, anti-corrosion recoating, and emergency maintenance across Saudi industrial cities.",
     fullDesc: "Keeping mission-critical industrial assets operating with peak efficiency is our mission. Hashem provides scheduled plant turnarounds, emergency structural repairs, facade restoration, mechanical equipment overhauls, and protective coating applications in Jubail, Yanbu, Dammam 2nd Industrial City, and Riyadh Industrial Cities.",
     iconName: "Wrench",
-    featuredImage: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1200&q=80",
+    featuredImage: "/images/services/maintenance.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1000&q=80"
+      "/images/services/maintenance.jpg"
     ],
     capabilities: [
       "Scheduled Plant Shutdowns & Emergency Turnarounds",
@@ -423,7 +423,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     location: "Al Khobar, Eastern Province",
     client: "Al-Rashed Real Estate Group",
     year: "2024",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/projects/proj-1.jpg",
     overview: "Turnkey design, fabrication, and installation of a 14-story unitized aluminium curtain wall with double-silver low-E structural glazing and architectural LED integrated fins.",
     scope: [
       "18,500 m² Unitized Curtain Wall Facade",
@@ -441,7 +441,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     location: "Jubail Industrial City, KSA",
     client: "Advanced Petrochemical Corp",
     year: "2023",
-    image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/projects/proj-2.jpg",
     overview: "Fabrication and heavy crane erection of 2,400 metric tons of hot-dip galvanized structural steel pipe racks, access platforms, and OSHA caged safety ladders.",
     scope: [
       "2,400 MT hot-dip galvanized heavy steel structures",
@@ -459,7 +459,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     location: "Dammam 2nd Industrial City",
     client: "Gulf Logistics & Warehousing Co.",
     year: "2024",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/projects/proj-3.jpg",
     overview: "Comprehensive turnkey civil construction of a 42,000 m² temperature-controlled distribution center including super-flat laser screed concrete flooring.",
     scope: [
       "42,000 m² FM2 classified jointless concrete floor slab",
@@ -477,7 +477,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     location: "King Fahd Road, Riyadh",
     client: "Tamkeen Investment Holding",
     year: "2023",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/projects/proj-4.jpg",
     overview: "Engineering and installation of 3,600 TR magnetic bearing centrifugal water-cooled chillers, cooling towers, and primary/secondary variable speed pumping headers.",
     scope: [
       "4 x 900 TR ultra-efficient magnetic centrifugal chillers",
@@ -495,7 +495,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     location: "Ras Al-Khair / Eastern Province",
     client: "Saudi Desalination & Utilities Est.",
     year: "2024",
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/projects/proj-5.jpg",
     overview: "Precision orbital welding, spool fabrication, and hydrostatic proof testing of 16-inch to 24-inch high-pressure seawater reverse osmosis stainless steel headers.",
     scope: [
       "4,200 meters of high-alloy Super Duplex & SS316L piping",
@@ -513,7 +513,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     location: "Yanbu Industrial City, KSA",
     client: "National Petrochemical Alliance",
     year: "2024",
-    image: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/projects/proj-6.jpg",
     overview: "Execution of 21-day emergency plant turnaround encompassing structural repairs, heat exchanger retubing, valve refurbishment, and anti-corrosion coating.",
     scope: [
       "De-rigging and reconditioning of 6 heavy shell-and-tube exchangers",
@@ -606,37 +606,37 @@ export const GALLERY_ITEMS = [
   {
     title: "5-Axis CNC Profile Milling Machine",
     category: "Aluminium Fabrication",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/services/aluminium.jpg",
     desc: "High-precision computer numerical controlled profile fabrication for architectural curtain walls."
   },
   {
     title: "Unitized Curtain Wall Installation",
     category: "Glazing & Facades",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/why-us/aluminium-glazing.jpg",
     desc: "Glass panel lifting robot installing 3.8m insulated double-glazed acoustic glass units."
   },
   {
     title: "Structural Steel Welding & Fabrication",
     category: "Steel Structures",
-    image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/services/steel.jpg",
     desc: "6G certified master welders executing full-penetration welds for petrochemical pipe racks."
   },
   {
     title: "Commercial Building High-Rise Casting",
     category: "Civil Construction",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/services/civil.jpg",
     desc: "Mass concrete pouring for heavy foundation footings with laser leveling."
   },
   {
     title: "Chilled Water Pumping Headers & Chillers",
     category: "HVAC Engineering",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/services/mechanical.jpg",
     desc: "High-tonnage central chiller plant header installation with acoustic vibration isolators."
   },
   {
     title: "High-Pressure Super Duplex Stainless Piping",
     category: "Piping Works",
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/services/piping.jpg",
     desc: "Sanitary orbital TIG welded piping for RO water treatment facility."
   }
 ];

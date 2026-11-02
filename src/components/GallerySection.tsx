@@ -81,6 +81,7 @@ export default function GallerySection() {
                 src={item.image}
                 alt={item.title}
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#141312] via-[#141312]/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
@@ -125,6 +126,7 @@ export default function GallerySection() {
                   src={activeLightboxImage.image}
                   alt={activeLightboxImage.title}
                   fill
+                  sizes="(max-width: 1024px) 100vw, 896px"
                   className="object-cover"
                 />
                 <button

@@ -28,56 +28,56 @@ export default function AluminiumSpotlight({ onOpenQuoteModal }: AluminiumSpotli
       title: "Unitized & Stick Curtain Walls",
       desc: "Engineered building envelopes for high-rise commercial towers and corporate headquarters, featuring double-silver low-E structural glazing and thermal-break profiles.",
       specs: "U-value ≤ 1.4 W/m²K | Wind Resistance 4.5 kPa",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/services/aluminium.jpg",
       tag: "Flagship Architectural System"
     },
     {
       title: "Structural Silicone Glazing (SSG)",
       desc: "Frameless, continuous glass facades using high-modulus structural silicones (Dow Corning / Sika) for sleek, uninterrupted architectural reflections.",
       specs: "2-Sided & 4-Sided SSG Systems | SBC 201 Compliant",
-      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/why-us/aluminium-glazing.jpg",
       tag: "Minimalist Modern Aesthetic"
     },
     {
       title: "Thermal-Break Aluminium Windows & Doors",
       desc: "Heavy-duty sliding, casement, tilt-and-turn, and bi-fold systems engineered for the harsh Gulf climate with polyamide insulation strips.",
       specs: "Sound Reduction Up to 42 dB | Multi-Point Locking",
-      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/projects/proj-1.jpg",
       tag: "Energy Efficient Climate Shield"
     },
     {
       title: "Aluminium Composite Panel (ACP) Cladding",
       desc: "PVDF coated fire-rated (A2 / B1 grade) aluminium composite panel cladding for modern commercial facades, showroom exteriors, and canopy soffits.",
       specs: "Non-Combustible Mineral Core | 20-Year PVDF Warranty",
-      image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/projects/proj-2.jpg",
       tag: "Civil Defense Approved"
     },
     {
       title: "Architectural Sun Louvers & Aerofoil Blades",
       desc: "Motorized and fixed aerodynamic aluminium louvers designed to reduce solar heat radiation by up to 60% while optimizing daylight harvesting.",
       specs: "Extruded 6063-T6 Alloy | Custom Anodized / Powder Coated",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/services/steel.jpg",
       tag: "Solar Control & Shading"
     },
     {
       title: "Acoustic Glass Partitions & Frameless Balustrades",
       desc: "Single and double-glazed interior acoustic office partitions, laminated tempered glass balustrades, and structural stainless-steel handrail systems.",
       specs: "Laminated Toughened Glass (10mm - 21.5mm) | SGP Interlayer",
-      image: "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/projects/proj-3.jpg",
       tag: "Interior & Exterior Safety Glazing"
     },
     {
       title: "Automatic Sliding, Revolving & Sensor Doors",
       desc: "Commercial motion-activated sliding glass entrance systems, security revolving doors, and automated handicap-accessible swing operators.",
       specs: "Heavy-Duty Brushless Motors | Integrated Access Control",
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/projects/proj-4.jpg",
       tag: "High Traffic Commercial Entrances"
     },
     {
       title: "Industrial Aluminium Solutions & Custom Extrusions",
       desc: "Bespoke engineered aluminium frames, equipment enclosures, cleanroom ceiling grids, and industrial walkways fabricated with high precision.",
       specs: "Tolerances ±0.2mm | CNC Milling & Tapping",
-      image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80",
+      image: "/images/services/mechanical.jpg",
       tag: "Industrial & Manufacturing Grade"
     }
   ];
@@ -137,6 +137,7 @@ export default function AluminiumSpotlight({ onOpenQuoteModal }: AluminiumSpotli
                   src={aluminiumProducts[activeItem].image}
                   alt={aluminiumProducts[activeItem].title}
                   fill
+                  sizes="(max-width: 1024px) 100vw, 58vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#141312] via-transparent to-black/30" />

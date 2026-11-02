@@ -95,6 +95,7 @@ export default function ProjectsSection() {
                   src={proj.image}
                   alt={proj.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                 />
                 
@@ -161,6 +162,7 @@ export default function ProjectsSection() {
                   src={activeProjectModal.image}
                   alt={activeProjectModal.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, 768px"
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1b1918] via-transparent to-black/40" />

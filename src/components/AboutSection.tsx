@@ -14,7 +14,7 @@ import {
 export default function AboutSection() {
   const [activeTab, setActiveTab] = useState<'overview' | 'vision' | 'hse'>('overview');
   const [imgSrc, setImgSrc] = useState(
-    'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1200&q=85'
+    '/images/about/site-engineering.jpg'
   );
 
   return (
@@ -46,7 +46,7 @@ export default function AboutSection() {
                     fill
                     sizes="(max-width: 1024px) 100vw, 45vw"
                     className="object-cover w-full h-full rounded-[inherit] transition-transform duration-700 ease-out hover:scale-105"
-                    onError={() => setImgSrc("https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=85")}
+                    onError={() => setImgSrc('/images/about/fabrication-plant.jpg')}
                     priority
                   />
 

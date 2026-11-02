@@ -53,9 +53,10 @@ export default function WhyChooseUs() {
               {/* Image 1: Aluminium Fabrication & Curtain Wall */}
               <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80"
+                  src="/images/why-us/aluminium-glazing.jpg"
                   alt="Aluminium Curtain Wall Fabrication"
                   fill
+                  sizes="(max-width: 640px) 50vw, 25vw"
                   className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />
@@ -67,9 +68,10 @@ export default function WhyChooseUs() {
               {/* Image 2: Steel Welding Sparks */}
               <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group mt-8 bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
-                  src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80"
+                  src="/images/why-us/steel-welding.jpg"
                   alt="Certified Steel Welding Sparks"
                   fill
+                  sizes="(max-width: 640px) 50vw, 25vw"
                   className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />
@@ -81,9 +83,10 @@ export default function WhyChooseUs() {
               {/* Image 3: Heavy Civil Construction & Cranes */}
               <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group -mt-4 bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
-                  src="https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=600&q=80"
+                  src="/images/why-us/civil-works.jpg"
                   alt="Civil Construction Concrete Works"
                   fill
+                  sizes="(max-width: 640px) 50vw, 25vw"
                   className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />
@@ -95,9 +98,10 @@ export default function WhyChooseUs() {
               {/* Image 4: Mechanical HVAC & Industrial Ducting */}
               <div className="relative rounded-[24px] overflow-hidden border-2 border-[#d4b145] shadow-[0_0_25px_rgba(212,177,69,0.15)] h-56 sm:h-64 group mt-4 bg-[#141312]" style={{ isolation: 'isolate' }}>
                 <Image
-                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80"
+                  src="/images/why-us/hvac-systems.jpg"
                   alt="Industrial HVAC Systems"
                   fill
+                  sizes="(max-width: 640px) 50vw, 25vw"
                   className="object-cover w-full h-full rounded-[inherit] group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none rounded-[inherit]" />

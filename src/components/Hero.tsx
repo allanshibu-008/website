@@ -26,28 +26,28 @@ export default function Hero({ onOpenQuoteModal }: HeroProps) {
     {
       title: "Aluminium & Facade Engineering",
       subtitle: "Architectural Glazing & Unitized Curtain Walls",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=85",
+      image: "/images/hero/hero-facade.jpg",
       badge: "European 5-Axis CNC Precision",
       stat: "85,000 m² Annual Capacity"
     },
     {
       title: "Heavy Structural Steel Fabrication",
       subtitle: "Industrial Plants, Warehouses & Pipe Racks",
-      image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1920&q=85",
+      image: "/images/hero/hero-steel.jpg",
       badge: "6G Certified Master Welders",
       stat: "1,200 MT Monthly Tonnage"
     },
     {
       title: "Turnkey Civil Construction",
       subtitle: "Commercial Landmarks & Heavy Infrastructure",
-      image: "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1920&q=85",
+      image: "/images/hero/hero-civil.jpg",
       badge: "Saudi Building Code (SBC) Compliant",
       stat: "1.2M m² Delivered in KSA"
     },
     {
       title: "Mechanical & HVAC Climate Systems",
       subtitle: "Central Chilled Water Plants & Duct Automation",
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1920&q=85",
+      image: "/images/hero/hero-mechanical.jpg",
       badge: "ASHRAE & Civil Defense Approved",
       stat: "45,000+ TR Installed"
     }

@@ -56,6 +56,7 @@ export default function ServiceDetailClient({ service }: ServiceDetailClientProp
             src={service.featuredImage}
             alt={service.title}
             fill
+            sizes="100vw"
             className="object-cover opacity-25 filter blur-[1px]"
             priority
           />
@@ -262,6 +263,7 @@ export default function ServiceDetailClient({ service }: ServiceDetailClientProp
                   src={imgUrl}
                   alt={`${service.title} photo ${idx + 1}`}
                   fill
+                  sizes="(max-width: 640px) 100vw, 33vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
@@ -297,7 +299,7 @@ export default function ServiceDetailClient({ service }: ServiceDetailClientProp
               {relatedProjects.map((p) => (
                 <div key={p.id} className="rounded-xl overflow-hidden bg-[#22201e] border border-[#332f2b]">
                   <div className="relative h-48 w-full">
-                    <Image src={p.image} alt={p.title} fill className="object-cover" />
+                    <Image src={p.image} alt={p.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
                   </div>
                   <div className="p-5">
                     <span className="text-[10px] font-bold text-[#d4b145] uppercase block mb-1">

@@ -68,9 +68,10 @@ export default function AboutPage() {
                   style={{ isolation: 'isolate' }}
                 >
                   <Image
-                    src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=85"
+                    src="/images/about/fabrication-plant.jpg"
                     alt="Hashem Precision Engineering Yard"
                     fill
+                    sizes="(max-width: 1024px) 100vw, 42vw"
                     className="object-cover w-full h-full rounded-[inherit] transition-transform duration-700 hover:scale-105"
                     priority
                   />
